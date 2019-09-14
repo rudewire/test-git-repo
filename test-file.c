@@ -14,7 +14,7 @@ rms(double* array, size_t n)
 		sum += array[i] * array[i];		
 	}
 
-	return(sqrtf(sum/n));
+	return(sqrt(sum/n));
 }
 
 void
